@@ -1,12 +1,18 @@
 .container_topo {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px 20px;
-    max-width: 100%;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
     font-size: 18px;
     font-weight: 600;
-    border-bottom: 1px solid #C8D9E6;
 }
 
 .container_topo picture {
@@ -37,9 +43,14 @@
     color: #C8D9E6;
 }
 
-@media (max-width:680px) {
-    .topo {
-        justify-content: center;
+@media (max-width:768px) {
+    .container_topo {
+        font-size: 14px;
+    }
+
+    .container_topo picture {
+        width: 120px;
+        height: 90px;
     }
 }
 

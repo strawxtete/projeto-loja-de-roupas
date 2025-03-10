@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
+import SecaoCapa from "@/components/SecaoCapa";
+import SecaoProdutos from "@/components/SecaoProdutos";
 
 export default function Home() {
   return (
@@ -13,6 +15,10 @@ export default function Home() {
       </Head>
 
       <Topo/>
+
+      <SecaoCapa/>
+
+      <SecaoProdutos/>
       
     </>
   );

@@ -5,12 +5,12 @@ export default function Topo() {
         <header>
             <div className={styles.container_topo}>
                 <picture>
-                    <img src='/logo.png'/>
+                    <img src='/logo-pano.png'/>
                 </picture>
 
                 <nav>
                     <a href="#">Home</a>
-                    <a href="#">Biquinis</a>
+                    <a href="#">Produtos</a>
                     <a href="#">Sobre Nós</a>
                     <a href="#">Contato</a>
                 </nav>
