@@ -1,0 +1,80 @@
+.contato {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    color: #2F4156;
+    border-top: #2F4156 1px solid;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo picture {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    font-size: 16px;
+}
+
+.sobre_itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_itens h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sobre_itens p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.contato_itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato_itens h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contato_itens p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.sociais_itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociais_itens h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sociais_itens p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
